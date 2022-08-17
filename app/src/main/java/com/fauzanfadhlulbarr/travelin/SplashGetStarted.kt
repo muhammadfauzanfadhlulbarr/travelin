@@ -13,7 +13,7 @@ class SplashGetStarted : AppCompatActivity() {
     }
 
     fun GetStarted(view: View?) {
-        val intent = Intent(this, SignIn::class.java)
+        val intent = Intent(this, Walktrought::class.java)
         startActivity(intent)
     }
 }

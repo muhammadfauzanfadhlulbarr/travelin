@@ -26,8 +26,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="6dp"
+        android:text="Where to fly today?"
         android:textSize="16dp"
-        android:text="Where are you today?"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
@@ -105,4 +105,14 @@
             android:layout_height="match_parent"/>
 
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pic_filled" />
 </androidx.constraintlayout.widget.ConstraintLayout>

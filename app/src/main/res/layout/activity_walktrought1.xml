@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Walktrought1">
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="66dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/waktrought2" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Destination"
+        android:textColor="@color/BlackColor"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView41" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Destinasi yang disediakan pada aplikasi travelin ini sangat banyak sehingga kalian akan puas"
+        android:textAlignment="center"
+        android:textColor="@color/GreyColor"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView60" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/background_primary"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Next"
+        android:onClick="NextWaltrought2"
+        android:textAllCaps="false"
+        android:textColor="@color/WhiteColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView61" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/background_edit_teks"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Back"
+        android:onClick="BackWaltrought"
+        android:textAllCaps="false"
+        android:textColor="@color/BlackColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Travelin">
         <activity
+            android:name=".Walktrought2"
+            android:exported="false" />
+        <activity
+            android:name=".Walktrought1"
+            android:exported="false" />
+        <activity
+            android:name=".Walktrought"
+            android:exported="false" />
+        <activity
+            android:name=".Success_Checkout"
+            android:exported="false" />
+        <activity
             android:name=".Checkout"
             android:exported="false" />
         <activity

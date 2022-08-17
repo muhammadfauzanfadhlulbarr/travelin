@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "909385423049",
+    "project_id": "travelin-2cd7c",
+    "storage_bucket": "travelin-2cd7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909385423049:android:a38d433215f893565bd518",
+        "android_client_info": {
+          "package_name": "com.fauzanfadhlulbarr.travelin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909385423049-mif2ufvmmnigl53ouie1fm87vrporrcu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW4q1eK522EhVoS2wGzeQhe2I_MhVirUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909385423049-mif2ufvmmnigl53ouie1fm87vrporrcu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

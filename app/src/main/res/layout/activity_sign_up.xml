@@ -4,35 +4,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="24dp"
+    android:background="@drawable/background"
+
     tools:context=".SignUp">
 
-    <LinearLayout
+    <RelativeLayout
+        android:id="@+id/layout_signin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_marginTop="10dp">
 
         <ImageView
             android:id="@+id/imageView5"
             android:layout_width="35dp"
             android:layout_height="35dp"
+            android:onClick="GetStarted"
+            android:layout_marginLeft="10dp"
             android:padding="5dp"
-            android:layout_weight="1"
             app:srcCompat="@drawable/button_back"
-            app:tint="@color/PrimaryColor"
-            android:onClick="GetStarted"/>
+            app:tint="#F44336" />
 
         <TextView
             android:id="@+id/textView13"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:textSize="20dp"
-            android:textColor="@color/black"
-            android:layout_gravity="center"
-            android:layout_marginTop="-32dp"
             android:fontFamily="@font/poppins_semibold"
-            android:text="Sign Up" />
+            android:gravity="center_horizontal"
+            android:text="Sign Up"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="44dp"
+        android:paddingRight="44dp"
+        android:layout_below="@+id/layout_signin"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView8"
@@ -40,7 +50,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppins_semibold"
             android:text="Join us and get \nyour next journey"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:textColor="@color/black"
             android:textSize="24dp" />
 
