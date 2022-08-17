@@ -4,11 +4,17 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/drawable/background.xml" value="0.1" />
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/drawable/background_available.xml" value="0.1535" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/drawable/background_edit_teks.xml" value="0.1" />
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/drawable/background_gradient.xml" value="0.1535" />
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/drawable/background_grey.xml" value="0.1535" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/drawable/background_layout.xml" value="0.1" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/drawable/background_primary.xml" value="0.1" />
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/drawable/background_selected.xml" value="0.1535" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
-        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_detail.xml" value="0.22" />
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_checkout.xml" value="0.25" />
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_choose_seat.xml" value="0.33" />
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_detail.xml" value="0.25" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_home.xml" value="0.22" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_sign_in.xml" value="0.22" />

@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Travelin">
         <activity
+            android:name=".Checkout"
+            android:exported="false" />
+        <activity
+            android:name=".ChooseSeat"
+            android:exported="false" />
+        <activity
             android:name=".DetailActivity"
             android:exported="false" />
         <activity
