@@ -15,8 +15,10 @@
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_checkout.xml" value="0.25" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_choose_seat.xml" value="0.33" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_detail.xml" value="0.25" />
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_history.xml" value="0.17426545086119555" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_home.xml" value="0.22" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_settings.xml" value="0.2617753623188406" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_sign_in.xml" value="0.22" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_sign_up.xml" value="0.33" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_sign_up_photo.xml" value="0.17426545086119555" />
@@ -24,6 +26,7 @@
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_walktrought.xml" value="0.22" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_walktrought1.xml" value="0.25" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_walktrought2.xml" value="0.33" />
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_wallet.xml" value="0.2617753623188406" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/dimen.xml" value="0.1" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/splash_get_started.xml" value="0.25" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/splash_screen.xml" value="0.1" />

@@ -5,14 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="24dp"
-    tools:context=".SignIn">
+    tools:context=".btn_signin">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="20dp"
         android:layout_marginTop="30dp"
-        android:layout_below="@+id/imageView3"
         android:orientation="vertical">
 
         <TextView
@@ -31,21 +30,20 @@
             android:fontFamily="@font/poppins_semibold"
             android:layout_marginTop="20dp"
             android:textSize="16dp"
-
             android:text="username" />
 
         <EditText
-            android:id="@+id/UsernameLogin"
+            android:id="@+id/et_username"
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_marginTop="5dp"
-
             android:background="@drawable/background_edit_teks"
             android:textSize="16dp"
             android:ems="10"
             android:fontFamily="@font/poppins_regular"
             android:paddingLeft="20dp"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            tools:text="fauzanfadhlulbarr"/>
 
         <TextView
             android:layout_marginTop="10dp"
@@ -57,7 +55,7 @@
             android:text="password" />
 
         <EditText
-            android:id="@+id/PasswordLogin"
+            android:id="@+id/et_password"
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_marginTop="5dp"
@@ -66,29 +64,29 @@
             android:ems="10"
             android:fontFamily="@font/poppins_regular"
             android:paddingLeft="20dp"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            tools:text="12345"/>
 
         <Button
-            android:id="@+id/signin"
+            android:id="@+id/btn_signin"
             android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:background="@drawable/background_primary"
-
             android:textColor="@color/WhiteColor"
             android:textAllCaps="false"
             android:text="Sign In"
-            android:onClick="SignInSuccess"/>
+            />
 
         <Button
-            android:id="@+id/signup"
+            android:id="@+id/btn_signup"
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:textAllCaps="false"
             android:background="@drawable/background_edit_teks"
             android:text="Sign Up"
-            android:onClick="SignUp"/>
+            />
 
 
     </LinearLayout>

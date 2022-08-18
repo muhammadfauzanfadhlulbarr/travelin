@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.fauzanfadhlulbarr.travelin.signin.SignIn
 
 class Walktrought2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

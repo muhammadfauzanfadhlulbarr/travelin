@@ -40,14 +40,13 @@
             android:textSize="15sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/getstarted"
             android:layout_width="220dp"
             android:layout_height="55dp"
             android:layout_gravity="center"
             android:layout_marginBottom="80dp"
             android:background="@drawable/background_primary"
             android:text="Get Started"
-            android:onClick="GetStarted"
             android:textAllCaps="false" />
     </LinearLayout>
 </RelativeLayout>

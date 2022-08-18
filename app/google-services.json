@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "909385423049",
-    "project_id": "travelin-2cd7c",
-    "storage_bucket": "travelin-2cd7c.appspot.com"
+    "project_number": "453313951847",
+    "firebase_url": "https://travelin-7a660-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "travelin-7a660",
+    "storage_bucket": "travelin-7a660.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:909385423049:android:a38d433215f893565bd518",
+        "mobilesdk_app_id": "1:453313951847:android:668d4de8ad235aaedbbcc2",
         "android_client_info": {
           "package_name": "com.fauzanfadhlulbarr.travelin"
         }
       },
       "oauth_client": [
         {
-          "client_id": "909385423049-mif2ufvmmnigl53ouie1fm87vrporrcu.apps.googleusercontent.com",
+          "client_id": "453313951847-shuss1auo50arfaknuo8r7bo7ajiru5t.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAW4q1eK522EhVoS2wGzeQhe2I_MhVirUc"
+          "current_key": "AIzaSyCEx2XlLSbWmbL4EVd8enTqn_1U3Kx6gQg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "909385423049-mif2ufvmmnigl53ouie1fm87vrporrcu.apps.googleusercontent.com",
+              "client_id": "453313951847-shuss1auo50arfaknuo8r7bo7ajiru5t.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
