@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Checkout">
+    tools:context=".checkout.CheckoutActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -35,328 +35,20 @@
                 android:orientation="vertical"
                 android:padding="20dp">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:id="@+id/imageView11"
-                        android:layout_width="70dp"
-                        android:layout_height="70dp"
-                        android:layout_gravity="left"
-                        android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/bandung" />
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="16dp"
-                        android:layout_weight="1"
-                        android:gravity="center_vertical"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/textView29"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/poppins_semibold"
-                            android:text="Asia Afrika"
-                            android:textColor="@color/BlackColor"
-                            android:textSize="18sp" />
-
-                        <TextView
-                            android:id="@+id/textView30"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/poppins_regular"
-                            android:text="Bandung"
-                            android:textColor="@color/GreyColor" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="right|center_vertical"
-                        android:layout_weight="1"
-                        android:gravity="right"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:id="@+id/imageView31"
-                            android:layout_width="24dp"
-                            android:layout_height="24dp"
-                            android:cropToPadding="false"
-                            app:srcCompat="@drawable/icon_star" />
-
-                        <TextView
-                            android:id="@+id/textView31"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/poppins_semibold"
-                            android:text="4.8"
-                            android:textColor="@color/BlackColor" />
-                    </LinearLayout>
-
-                </LinearLayout>
-
                 <TextView
                     android:id="@+id/textView32"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
                     android:fontFamily="@font/poppins_semibold"
                     android:text="Booking Detail"
                     android:textColor="@color/BlackColor"
                     android:textSize="16sp" />
 
-                <LinearLayout
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_checkout"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="10dp"
-                    android:orientation="horizontal">
+                    android:layout_height="match_parent" />
 
-                    <ImageView
-                        android:id="@+id/imageView33"
-                        android:layout_width="16dp"
-                        android:layout_height="16dp"
-                        android:layout_gravity="left|center_vertical"
-                        app:srcCompat="@drawable/fi_check_circle" />
-
-                    <TextView
-                        android:id="@+id/textView43"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="6dp"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/poppins_regular"
-                        android:text="Traveler"
-                        android:textAlignment="textStart"
-                        android:textColor="@color/BlackColor" />
-
-                    <TextView
-                        android:id="@+id/textView44"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/poppins_semibold"
-                        android:text="2 Person"
-                        android:textAlignment="textEnd"
-                        android:textColor="@color/BlackColor" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="16dp"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:id="@+id/imageView34"
-                        android:layout_width="16dp"
-                        android:layout_height="16dp"
-                        android:layout_gravity="left|center_vertical"
-                        app:srcCompat="@drawable/fi_check_circle" />
-
-                    <TextView
-                        android:id="@+id/textView45"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="6dp"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/poppins_regular"
-                        android:text="Seat"
-                        android:textAlignment="textStart"
-                        android:textColor="@color/BlackColor" />
-
-                    <TextView
-                        android:id="@+id/textView46"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/poppins_semibold"
-                        android:text="A3, B3"
-                        android:textAlignment="textEnd"
-                        android:textColor="@color/BlackColor" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="16dp"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:id="@+id/imageView35"
-                        android:layout_width="16dp"
-                        android:layout_height="16dp"
-                        android:layout_gravity="left|center_vertical"
-                        app:srcCompat="@drawable/fi_check_circle" />
-
-                    <TextView
-                        android:id="@+id/textView47"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="6dp"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/poppins_regular"
-                        android:text="Insurance"
-                        android:textColor="@color/BlackColor" />
-
-                    <TextView
-                        android:id="@+id/textView48"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/poppins_semibold"
-                        android:text="YES"
-                        android:textAlignment="textEnd"
-                        android:textColor="@color/GreenColor" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="16dp"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:id="@+id/imageView36"
-                        android:layout_width="16dp"
-                        android:layout_height="16dp"
-                        android:layout_gravity="left|center_vertical"
-                        app:srcCompat="@drawable/fi_check_circle" />
-
-                    <TextView
-                        android:id="@+id/textView49"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="6dp"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/poppins_regular"
-                        android:text="Refundable"
-                        android:textColor="@color/BlackColor" />
-
-                    <TextView
-                        android:id="@+id/textView50"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/poppins_semibold"
-                        android:text="NO"
-                        android:textAlignment="textEnd"
-                        android:textColor="@color/RedColor" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="16dp"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:id="@+id/imageView37"
-                        android:layout_width="16dp"
-                        android:layout_height="16dp"
-                        android:layout_gravity="left|center_vertical"
-                        app:srcCompat="@drawable/fi_check_circle" />
-
-                    <TextView
-                        android:id="@+id/textView51"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="6dp"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/poppins_regular"
-                        android:text="VAT"
-                        android:textColor="@color/BlackColor" />
-
-                    <TextView
-                        android:id="@+id/textView52"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/poppins_semibold"
-                        android:text="45%"
-                        android:textAlignment="textEnd"
-                        android:textColor="@color/BlackColor" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="16dp"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:id="@+id/imageView38"
-                        android:layout_width="16dp"
-                        android:layout_height="16dp"
-                        android:layout_gravity="left|center_vertical"
-                        app:srcCompat="@drawable/fi_check_circle" />
-
-                    <TextView
-                        android:id="@+id/textView53"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="6dp"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/poppins_regular"
-                        android:text="Price"
-                        android:textColor="@color/BlackColor" />
-
-                    <TextView
-                        android:id="@+id/textView54"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/poppins_semibold"
-                        android:text="2 Person"
-                        android:textAlignment="textEnd"
-                        android:textColor="@color/BlackColor" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="10dp"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:id="@+id/imageView39"
-                        android:layout_width="16dp"
-                        android:layout_height="16dp"
-                        android:layout_gravity="left|center_vertical"
-                        app:srcCompat="@drawable/fi_check_circle" />
-
-                    <TextView
-                        android:id="@+id/textView55"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="6dp"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/poppins_regular"
-                        android:text="Grand Total"
-                        android:textColor="@color/BlackColor" />
-
-                    <TextView
-                        android:id="@+id/textView456"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/poppins_semibold"
-                        android:text="IDR 12.000.000"
-                        android:textAlignment="textEnd"
-                        android:textColor="@color/PrimaryColor" />
-                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
@@ -430,7 +122,7 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/btn_pay_now"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 android:layout_marginTop="30dp"
@@ -439,7 +131,8 @@
                 android:text="Pay Now"
                 android:textAllCaps="false"
                 android:textColor="@color/WhiteColor"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:onClick="success"/>
 
         </LinearLayout>
     </ScrollView>

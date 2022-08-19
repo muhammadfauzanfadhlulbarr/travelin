@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/drawable-v24/background_rowrating.xml" value="0.1" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/drawable/background.xml" value="0.1" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/drawable/background_available.xml" value="0.1535" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/drawable/background_edit_teks.xml" value="0.1" />
@@ -12,24 +13,36 @@
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/drawable/background_primary.xml" value="0.1" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/drawable/background_selected.xml" value="0.1535" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
-        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_checkout.xml" value="0.25" />
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/drawable/star.xml" value="0.1" />
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/drawable/stars.xml" value="0.1" />
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout-w936dp/row_new_this_year.xml" value="0.5044843049327354" />
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_checkout.xml" value="0.18907563025210083" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_choose_seat.xml" value="0.33" />
-        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_detail.xml" value="0.25" />
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_detail.xml" value="0.16666666666666666" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_history.xml" value="0.17426545086119555" />
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_history2.xml" value="0.33" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_home.xml" value="0.22" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_pay_now.xml" value="0.17603850050658562" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_settings.xml" value="0.2617753623188406" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_sign_in.xml" value="0.22" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_sign_up.xml" value="0.33" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_sign_up_photo.xml" value="0.17426545086119555" />
-        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_success_checkout.xml" value="0.25" />
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_success.xml" value="0.25" />
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_success_checkout.xml" value="0.22" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_walktrought.xml" value="0.22" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_walktrought1.xml" value="0.25" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_walktrought2.xml" value="0.33" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/activity_wallet.xml" value="0.2617753623188406" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/dimen.xml" value="0.1" />
-        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/fragment_dashboard.xml" value="0.22" />
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/fragment_blank.xml" value="0.17426545086119555" />
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/fragment_history.xml" value="0.17603850050658562" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/fragment_setting.xml" value="0.17426545086119555" />
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/row_item_checkout.xml" value="0.4175365344467641" />
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/row_item_checkout_white.xml" value="0.1" />
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/row_item_palace.xml" value="0.33" />
+        <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/row_new_this_years.xml" value="0.23823529411764705" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/splash_get_started.xml" value="0.25" />
         <entry key="..\:/College/SMT6/UAS/Travelin/app/src/main/res/layout/splash_screen.xml" value="0.1" />
       </map>

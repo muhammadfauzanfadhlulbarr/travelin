@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetailActivity">
+    tools:context=".checkout.DetailActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -20,14 +20,14 @@
             android:orientation="vertical" >
 
             <ImageButton
-                android:id="@+id/imageButton"
+                android:id="@+id/images_detail"
                 android:layout_width="match_parent"
                 android:layout_height="450dp"
                 android:scaleType="centerCrop"
                 app:srcCompat="@drawable/bandung" />
 
             <TextView
-                android:id="@+id/textView22"
+                android:id="@+id/tv_city_detail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="-120dp"
@@ -38,7 +38,7 @@
                 android:textSize="24dp"
                 android:text="Asia Afrika " />
             <TextView
-                android:id="@+id/textView23"
+                android:id="@+id/tv_place_detail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
@@ -95,6 +95,7 @@
                     android:text="About" />
 
                 <TextView
+                    android:id="@+id/tv_about_detail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -108,26 +109,13 @@
                     android:textSize="16dp"
                     android:textColor="@color/black"
                     android:fontFamily="@font/poppins_semibold"
-                    android:text="Photos" />
-
-                <androidx.recyclerview.widget.RecyclerView
-                    android:layout_width="match_parent"
-                    android:layout_marginTop="10dp"
-                    android:layout_height="70dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="16dp"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/poppins_semibold"
                     android:layout_marginTop="20dp"
                     android:text="Interest" />
 
                 <androidx.gridlayout.widget.GridLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="4dp"
                     app:columnCount="2"
 
                     app:rowCount="2">
@@ -182,7 +170,7 @@
 
 
                     <TextView
-                        android:id="@+id/textView25"
+                        android:id="@+id/price_detail"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="18dp"
@@ -200,11 +188,12 @@
                 </LinearLayout>
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/book_now_detail"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:layout_marginEnd="24dp"
                     android:layout_marginStart="35dp"
+                    android:textAllCaps="false"
                     android:textColor="@color/WhiteColor"
                     android:background="@drawable/background_primary"
                     android:text="Book Now" />

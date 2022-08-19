@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ChooseSeat">
+    tools:context=".checkout.ChooseSeat">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -25,6 +25,15 @@
                 android:text="Select Your Favorite Seat"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Bandung"
+                android:textColor="@color/GreyColor"
+                android:textSize="16sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -153,22 +162,22 @@
                         android:textSize="16sp" />
 
                     <ImageView
-                        android:id="@+id/imageView10"
+                        android:id="@+id/a1"
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:layout_marginTop="16dp"
-                        app:srcCompat="@drawable/background_unavailable" />
+                        app:srcCompat="@drawable/background_available" />
 
                     <ImageView
-                        android:id="@+id/imageView12"
+                        android:id="@+id/b1"
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:layout_marginLeft="16dp"
                         android:layout_marginTop="16dp"
-                        app:srcCompat="@drawable/background_unavailable" />
+                        app:srcCompat="@drawable/background_available" />
 
                     <TextView
-                        android:id="@+id/textView38"
+                        android:id="@+id/TextView38"
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:layout_marginLeft="6dp"
@@ -179,26 +188,26 @@
                         android:textAlignment="center" />
 
                     <ImageView
-                        android:id="@+id/imageView13"
+                        android:id="@+id/c1"
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:layout_marginTop="16dp"
-                        app:srcCompat="@drawable/background_unavailable" />
+                        app:srcCompat="@drawable/background_available" />
 
                     <ImageView
-                        android:id="@+id/imageView14"
+                        android:id="@+id/d1"
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:layout_marginLeft="16dp"
                         android:layout_marginTop="16dp"
-                        app:srcCompat="@drawable/background_unavailable" />
+                        app:srcCompat="@drawable/background_available" />
 
                     <ImageView
                         android:id="@+id/imageView15"
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:layout_marginTop="16dp"
-                        app:srcCompat="@drawable/background_unavailable" />
+                        app:srcCompat="@drawable/background_available" />
 
                     <ImageView
                         android:id="@+id/imageView16"
@@ -206,7 +215,7 @@
                         android:layout_height="48dp"
                         android:layout_marginLeft="16dp"
                         android:layout_marginTop="16dp"
-                        app:srcCompat="@drawable/background_unavailable" />
+                        app:srcCompat="@drawable/background_available" />
 
                     <TextView
                         android:id="@+id/textView39"
@@ -224,7 +233,7 @@
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:layout_marginTop="16dp"
-                        app:srcCompat="@drawable/background_unavailable" />
+                        app:srcCompat="@drawable/background_available" />
 
                     <ImageView
                         android:id="@+id/imageView18"
@@ -232,14 +241,14 @@
                         android:layout_height="48dp"
                         android:layout_marginLeft="16dp"
                         android:layout_marginTop="16dp"
-                        app:srcCompat="@drawable/background_unavailable" />
+                        app:srcCompat="@drawable/background_available" />
 
                     <ImageView
                         android:id="@+id/imageView19"
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:layout_marginTop="16dp"
-                        app:srcCompat="@drawable/background_unavailable" />
+                        app:srcCompat="@drawable/background_available" />
 
                     <ImageView
                         android:id="@+id/imageView20"
@@ -247,7 +256,7 @@
                         android:layout_height="48dp"
                         android:layout_marginLeft="16dp"
                         android:layout_marginTop="16dp"
-                        app:srcCompat="@drawable/background_unavailable" />
+                        app:srcCompat="@drawable/background_available" />
 
                     <TextView
                         android:id="@+id/textView40"
@@ -265,7 +274,7 @@
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:layout_marginTop="16dp"
-                        app:srcCompat="@drawable/background_unavailable" />
+                        app:srcCompat="@drawable/background_available" />
 
                     <ImageView
                         android:id="@+id/imageView22"
@@ -273,14 +282,14 @@
                         android:layout_height="48dp"
                         android:layout_marginLeft="16dp"
                         android:layout_marginTop="16dp"
-                        app:srcCompat="@drawable/background_unavailable" />
+                        app:srcCompat="@drawable/background_available" />
 
                     <ImageView
                         android:id="@+id/imageView23"
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:layout_marginTop="16dp"
-                        app:srcCompat="@drawable/background_unavailable" />
+                        app:srcCompat="@drawable/background_available" />
 
                     <ImageView
                         android:id="@+id/imageView24"
@@ -288,7 +297,7 @@
                         android:layout_height="48dp"
                         android:layout_marginLeft="16dp"
                         android:layout_marginTop="16dp"
-                        app:srcCompat="@drawable/background_unavailable" />
+                        app:srcCompat="@drawable/background_available" />
 
                     <TextView
                         android:id="@+id/textView41"
@@ -306,7 +315,7 @@
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:layout_marginTop="16dp"
-                        app:srcCompat="@drawable/background_unavailable" />
+                        app:srcCompat="@drawable/background_available" />
 
                     <ImageView
                         android:id="@+id/imageView26"
@@ -314,14 +323,14 @@
                         android:layout_height="48dp"
                         android:layout_marginLeft="16dp"
                         android:layout_marginTop="16dp"
-                        app:srcCompat="@drawable/background_unavailable" />
+                        app:srcCompat="@drawable/background_available" />
 
                     <ImageView
                         android:id="@+id/imageView27"
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:layout_marginTop="16dp"
-                        app:srcCompat="@drawable/background_unavailable" />
+                        app:srcCompat="@drawable/background_available" />
 
                     <ImageView
                         android:id="@+id/imageView28"
@@ -329,7 +338,7 @@
                         android:layout_height="48dp"
                         android:layout_marginLeft="16dp"
                         android:layout_marginTop="16dp"
-                        app:srcCompat="@drawable/background_unavailable" />
+                        app:srcCompat="@drawable/background_available" />
 
                     <TextView
                         android:id="@+id/textView42"
@@ -347,7 +356,7 @@
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:layout_marginTop="16dp"
-                        app:srcCompat="@drawable/background_unavailable" />
+                        app:srcCompat="@drawable/background_available" />
 
                     <ImageView
                         android:id="@+id/imageView30"
@@ -355,64 +364,15 @@
                         android:layout_height="48dp"
                         android:layout_marginLeft="16dp"
                         android:layout_marginTop="16dp"
-                        app:srcCompat="@drawable/background_unavailable" />
+                        app:srcCompat="@drawable/background_available" />
 
 
-                </androidx.gridlayout.widget.GridLayout>
-
-                <androidx.gridlayout.widget.GridLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="10dp"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="20dp"
-                    android:paddingBottom="30dp"
-                    app:rowCount="2"
-                    app:columnCount="2">
-
-                    <TextView
-                        android:id="@+id/textView45"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/poppins_regular"
-                        android:text="Your seat"
-                        android:textColor="@color/GreyColor"/>
-
-                    <TextView
-                        android:id="@+id/your_seat"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="67dp"
-                        android:textColor="@color/black"
-                        android:fontFamily="@font/poppins_regular"
-                        android:textAlignment="textEnd"
-                        android:text="" />
-                    <TextView
-                        android:id="@+id/textView46"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
-                        android:fontFamily="@font/poppins_regular"
-                        android:text="Total"
-                        android:gravity="center"
-                        android:textColor="@color/GreyColor"/>
-
-                    <TextView
-                        android:id="@+id/total"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
-                        android:layout_marginEnd="67dp"
-                        android:fontFamily="@font/poppins_semibold"
-                        android:textColor="@color/PrimaryColor"
-                        android:textAlignment="textEnd"
-                        android:text="" />
                 </androidx.gridlayout.widget.GridLayout>
 
             </LinearLayout>
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/btn_checkout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"

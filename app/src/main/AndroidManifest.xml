@@ -4,10 +4,10 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
-    <uses-permission-sdk-23 android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
 
@@ -19,13 +19,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Travelin">
         <activity
+            android:name=".history.HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PayNowActivity"
+            android:exported="false" />
+        <activity
             android:name=".Settings"
             android:exported="false" />
         <activity
             android:name=".Wallet"
-            android:exported="false" />
-        <activity
-            android:name=".History"
             android:exported="false" />
         <activity
             android:name=".Walktrought2"
@@ -37,16 +40,13 @@
             android:name=".Walktrought"
             android:exported="false" />
         <activity
-            android:name=".Success_Checkout"
+            android:name=".checkout.CheckoutActivity"
             android:exported="false" />
         <activity
-            android:name=".Checkout"
+            android:name=".checkout.ChooseSeat"
             android:exported="false" />
         <activity
-            android:name=".ChooseSeat"
-            android:exported="false" />
-        <activity
-            android:name=".DetailActivity"
+            android:name=".checkout.DetailActivity"
             android:exported="false" />
         <activity
             android:name=".home.HomeActivity"

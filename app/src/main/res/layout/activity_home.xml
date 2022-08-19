@@ -33,7 +33,8 @@
             android:layout_height="match_parent"
             android:layout_marginStart="20dp"
             android:padding="14dp"
-            android:src="@drawable/fi_globe" />
+            android:src="@drawable/fi_globe"
+            app:tint="@color/GreyColor" />
 
         <ImageView
             android:id="@+id/menu_2"

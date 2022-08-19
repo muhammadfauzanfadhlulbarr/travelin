@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.fauzanfadhlulbarr.travelin.R
+import com.fauzanfadhlulbarr.travelin.dashboard.DashboardFragment
+import com.fauzanfadhlulbarr.travelin.history.HistoryFragment
 import kotlinx.android.synthetic.main.activity_home.*
 
 class HomeActivity : AppCompatActivity() {
@@ -12,27 +14,43 @@ class HomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_home)
         supportActionBar!!.hide()
 
-        val framentHome = DashboardFragment()
+        val fragmentHome = DashboardFragment()
+        val fragmentHistory = HistoryFragment()
+        val fragmentWallet = WalletFragment()
+        val fragmentSetting = SettingFragment()
 
-        setFragment(framentHome)
+        setFragment(fragmentHome)
+        menu_1.setColorFilter(resources.getColor(R.color.PrimaryColor))
 
         menu_1.setOnClickListener {
-            setFragment(framentHome)
+            setFragment(fragmentHome)
             menu_1.setColorFilter(resources.getColor(R.color.PrimaryColor))
+            menu_2.setColorFilter(null)
+            menu_3.setColorFilter(null)
+            menu_4.setColorFilter(null)
         }
 
         menu_2.setOnClickListener {
-            setFragment(framentHome)
+            setFragment(fragmentHistory)
+            menu_1.setColorFilter(null)
             menu_2.setColorFilter(resources.getColor(R.color.PrimaryColor))
+            menu_3.setColorFilter(null)
+            menu_4.setColorFilter(null);
         }
 
         menu_3.setOnClickListener {
-            setFragment(framentHome)
+            setFragment(fragmentWallet)
+            menu_1.setColorFilter(null);
+            menu_2.setColorFilter(null);
             menu_3.setColorFilter(resources.getColor(R.color.PrimaryColor))
+            menu_4.setColorFilter(null);
         }
 
         menu_4.setOnClickListener {
-            setFragment(framentHome)
+            setFragment(fragmentSetting)
+            menu_1.setColorFilter(null);
+            menu_2.setColorFilter(null);
+            menu_3.setColorFilter(null);
             menu_4.setColorFilter(resources.getColor(R.color.PrimaryColor))
         }
 
