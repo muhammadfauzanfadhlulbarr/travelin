@@ -49,13 +49,13 @@
             android:name=".DetailActivity"
             android:exported="false" />
         <activity
-            android:name=".HomeActivity"
+            android:name=".home.HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".SignUpPhoto"
+            android:name=".signup.SignUpPhoto"
             android:exported="false" />
         <activity
-            android:name=".SignUp"
+            android:name=".signup.SignUp"
             android:exported="false" />
         <activity
             android:name=".signin.SignIn"

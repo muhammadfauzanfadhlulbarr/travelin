@@ -1,9 +1,8 @@
-package com.fauzanfadhlulbarr.travelin
+package com.fauzanfadhlulbarr.travelin.signup
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
+import com.fauzanfadhlulbarr.travelin.R
 
 class SignUpPhoto : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

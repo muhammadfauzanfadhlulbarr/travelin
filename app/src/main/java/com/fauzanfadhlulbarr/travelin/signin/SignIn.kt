@@ -4,13 +4,11 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.fauzanfadhlulbarr.travelin.HomeActivity
+import com.fauzanfadhlulbarr.travelin.home.HomeActivity
 import com.fauzanfadhlulbarr.travelin.R
-import com.fauzanfadhlulbarr.travelin.SignUp
+import com.fauzanfadhlulbarr.travelin.signup.SignUp
 import com.fauzanfadhlulbarr.travelin.utils.Preference
 import com.google.firebase.database.*
-import com.google.firebase.database.ktx.database
-import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_sign_in.*
 
 
@@ -30,14 +28,6 @@ class SignIn : AppCompatActivity() {
         preferences = Preference(this)
 
         preferences.setValues("getstarted", "1")
-        if (preferences.getValues("status").equals("1")) {
-            finishAffinity()
-
-            val intent = Intent(this@SignIn,
-                HomeActivity::class.java)
-            startActivity(intent)
-        }
-
         btn_signin.setOnClickListener {
             iUsername = et_username.text.toString()
             iPassword = et_password.text.toString()
@@ -52,7 +42,7 @@ class SignIn : AppCompatActivity() {
 
                 var statusUsername = iUsername.indexOf(".")
                 if (statusUsername >=0) {
-                    et_username.error = "Silahkan tulis Username Anda tanpa."
+                    et_username.error = "Silahkan tulis Username Anda tanpa ."
                     et_username.requestFocus()
                 } else {
                     pushLogin(iUsername, iPassword)
@@ -85,8 +75,7 @@ class SignIn : AppCompatActivity() {
                         Toast.makeText(this@SignIn, "Selamat Datang", Toast.LENGTH_LONG).show()
 
                         preferences.setValues("nama", user.nama.toString())
-                        preferences.setValues("user", user.username.toString())
-                        preferences.setValues("url", user.url.toString())
+                        preferences.setValues("username", user.username.toString())
                         preferences.setValues("email", user.email.toString())
                         preferences.setValues("saldo", user.saldo.toString())
                         preferences.setValues("status", "1")

@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.fauzanfadhlulbarr.travelin.signin.SignIn
 import com.fauzanfadhlulbarr.travelin.utils.Preference
 
 class Walktrought : AppCompatActivity() {
@@ -15,8 +16,11 @@ class Walktrought : AppCompatActivity() {
         preference = Preference(this)
 
 
-        if (preference.getValues("getstarted").equals("1")){
-            val intent = Intent(this, HomeActivity::class.java)
+        if (preference.getValues("onboarding").equals("1")) {
+            finishAffinity()
+
+            val intent = Intent(this@Walktrought,
+                SignIn::class.java)
             startActivity(intent)
         }
         supportActionBar!!.hide()

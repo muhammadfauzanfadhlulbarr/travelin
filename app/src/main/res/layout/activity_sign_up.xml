@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background"
 
-    tools:context=".SignUp">
+    tools:context=".signup.SignUp">
 
     <RelativeLayout
         android:id="@+id/layout_signin"
@@ -74,7 +74,7 @@
                 android:text="Full Name" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/su_fullname"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 android:paddingLeft="20dp"
@@ -94,7 +94,7 @@
                 android:text="Email Address" />
 
             <EditText
-                android:id="@+id/editTextTextEmailAddress"
+                android:id="@+id/su_email"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 android:paddingLeft="20dp"
@@ -114,7 +114,7 @@
                 android:text="Password" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName3"
+                android:id="@+id/su_password"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 android:background="@drawable/background_edit_teks"
@@ -134,7 +134,7 @@
                 android:text="Username" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName2"
+                android:id="@+id/su_username"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 android:paddingLeft="20dp"
@@ -143,7 +143,7 @@
                 android:inputType="textPersonName" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btn_su"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 android:layout_marginTop="20dp"
@@ -151,7 +151,7 @@
                 android:textAllCaps="false"
                 android:textColor="@color/WhiteColor"
                 android:text="Sign Up"
-                android:onClick="SignUpSucces"/>
+                />
         </LinearLayout>
     </LinearLayout>
 
